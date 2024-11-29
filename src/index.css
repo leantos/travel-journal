@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+}
+
+.globe{
+  height: 40px;
+  width: 50px;
+}
+
+.header{
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #0b3508df;
+}
+
+.header > h1{
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: Inter;
+}
+
+.place-image{
+  height: 300px;
+  width: 200px;
+  border-radius: 5px 30px 30px 30px;
+}
+
+.location-pin{
+  height: 15px;
+  width: 20px;
+}
+
+.card{
+  display: flex;
+  padding: 10px;
+}
+
+.place-details a{
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
+  font-weight: 100;
+  margin-left: 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+.place-details a::after{
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
+}
+
+.place-details span{
+  font-family: Parkinsans;
+  font-size: 20px;
+}
+
+.place-details h1{
+  font-size: 30px;
+  margin-left: 10px;
+}
