@@ -8,11 +8,13 @@ body{
 }
 
 .header{
+  box-shadow: black 0px 0px 5px 0px;
+  border-radius: 0 0 30px 30px;
   height: 55px;
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: #0b3508df;
+  background-color: #155b78;
 }
 
 .header > h1{
@@ -22,10 +24,18 @@ body{
   font-family: Inter;
 }
 
-.place-image{
+.image-container{
   height: 300px;
-  width: 200px;
+  width: 220px;
+  overflow: hidden;
+  flex-shrink: 0;
   border-radius: 5px 30px 30px 30px;
+}
+
+.place-image{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
 }
 
 .location-pin{

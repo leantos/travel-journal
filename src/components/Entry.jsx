@@ -3,10 +3,12 @@ export function Entry(props){
     return(
         <>
         <article className="card">
-            <img src={props.img.src} 
-            className="place-image"
-            alt={props.img.alt}
-            />
+            <div className="image-container">
+                <img src={props.img.src} 
+                className="place-image"
+                alt={props.img.alt}
+                />
+            </div>
             <div className="place-details">
                 <img className="location-pin" 
                 src="/src/assets/location.svg"/>
