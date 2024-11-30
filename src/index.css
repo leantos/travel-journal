@@ -23,19 +23,25 @@ body{
 }
 
 .place-image{
+  margin-top: 10px;
   height: 300px;
   width: 200px;
   border-radius: 5px 30px 30px 30px;
 }
 
 .location-pin{
+  margin-left: 20px;
   height: 15px;
   width: 20px;
 }
 
 .card{
+  margin: 10px;
+  width: fit-content;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
-  padding: 10px;
+  padding: 50px;
+
 }
 
 .place-details a{
@@ -53,11 +59,29 @@ body{
 }
 
 .place-details span{
+  font-weight: lighter;
   font-family: Parkinsans;
   font-size: 20px;
 }
 
 .place-details h1{
+  font-family: Parkinsans;
+  font-weight: bold;
   font-size: 30px;
-  margin-left: 10px;
+}
+
+.entry{
+  margin-left: 20px;
+}
+
+.entry-text{
+  font-family: Parkinsans;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.date{
+  font-family: Parkinsans;
+  font-size: 20px;
+  font-weight: bold;
 }
