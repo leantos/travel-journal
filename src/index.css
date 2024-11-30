@@ -16,7 +16,7 @@ body{
 }
 
 .header > h1{
-  margin-left: 10px;
+  margin-left: 1px;
   color: rgb(255, 255, 255);
   font-size: 1rem;
   font-family: Inter;
@@ -46,10 +46,9 @@ body{
 .place-details a{
   text-decoration: underline 1px;
   text-underline-offset: 3px;
-  font-weight: 100;
-  margin-left: 10px;
+  margin-left: 18px;
   color: grey;
-  font-size: 20px;
+  font-size: medium;
 }
 
 .place-details a::after{
